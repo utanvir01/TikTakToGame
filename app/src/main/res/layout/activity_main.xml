@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <Button
+            android:id="@+id/btn1"
+            android:text=""
+            android:textSize="23sp"
+            android:onClick="click"
+            />
+        <Button
+            android:layout_marginStart="11dp"
+            android:id="@+id/btn2"
+            android:text=""
+            android:textSize="23sp"
+            android:onClick="click"/>
+        <Button
+            android:layout_marginStart="11dp"
+            android:id="@+id/btn3"
+            android:text=""
+            android:textSize="23sp"
+            android:onClick="click"/>
+        <Button
+            android:id="@+id/btn4"
+            android:text=""
+            android:textSize="23sp"
+            android:onClick="click"/>
+        <Button
+            android:layout_marginStart="11dp"
+            android:id="@+id/btn5"
+            android:text=""
+            android:textSize="23sp"
+            android:onClick="click"/>
+        <Button
+            android:layout_marginStart="11dp"
+            android:id="@+id/btn6"
+            android:text=""
+            android:textSize="23sp"
+            android:onClick="click"/>
+        <Button
+            android:id="@+id/btn7"
+            android:text=""
+            android:textSize="23sp"
+            android:onClick="click"/>
+        <Button
+            android:layout_marginStart="11dp"
+            android:id="@+id/btn8"
+            android:text=""
+            android:textSize="23sp"
+            android:onClick="click"/>
+
+        <Button
+            android:layout_marginStart="11dp"
+            android:id="@+id/btn9"
+            android:text=""
+            android:textSize="23sp"
+            android:onClick="click"/>
+
+    </GridLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESTART"
+        app:backgroundTint="@color/teal_200"
+        android:textSize="23sp"
+        android:id="@+id/restart"/>
+
+
+
+</LinearLayout>
